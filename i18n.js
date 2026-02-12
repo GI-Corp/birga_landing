@@ -45,7 +45,7 @@
         q1: 'What is Birga?',
         a1: 'Birga is a single integration gateway (SaaS) that lets your systems communicate with multiple POS providers through one API. Instead of integrating with each POS separately, you integrate once with Birga.',
         q2: 'Which POS systems are supported?',
-        a2: 'We currently support R-Keeper and Poster, with more adapters in development. Contact us if you need a specific POS or delivery platform.',
+        a2: 'We currently support R-Keeper, IIKO and Poster, with more adapters in development. Contact us if you need a specific POS or delivery platform.',
         q3: 'Can I use Birga on-premise?',
         a3: 'We offer only cloud (SaaS) option for now. Our gateway is designed to be fully managed and scalable.',
         q4: 'How do I get started?',
@@ -78,11 +78,11 @@
     },
     ru: {
       nav: { about: 'О нас', integrations: 'Интеграции', partners: 'Партнёры', faq: 'Вопросы', contacts: 'Контакты' },
-      cta: { getStarted: 'Начать' },
+      cta: { getStarted: 'Начать бесплатно' },
       hero: {
-        titleLine1: 'Один шлюз.',
-        titleLine2: 'Любая POS.',
-        lead: 'Birga — единый шлюз интеграции, который подключает ваш бизнес к нескольким платёжным и кассовым системам. Один API, одна панель, без привязки к вендору.',
+        titleLine1: 'Единый шлюз.',
+        titleLine2: 'Все POS системы.',
+        lead: 'Birga — единый шлюз интеграции, который подключает ваш бизнес к нескольким платёжным и кассовым системам. Единый интерфейс API, единый дэшборд, без привязки к вендору.',
         requestDemo: 'Запросить демо',
         learnMore: 'Подробнее',
         statPartners: 'Партнёров',
@@ -92,24 +92,24 @@
       about: {
         title: 'О нас',
         whatWeDo: 'Что мы делаем',
-        whatWeDoDesc: 'Birga предоставляет единый слой интеграции, чтобы ваши приложения могли работать с R-Keeper, Poster и другими POS через один интерфейс. Мы берём на себя протоколы, повторы и маппинг — вы занимаетесь продуктом.',
+        whatWeDoDesc: 'Birga предоставляет единый слой интеграции, чтобы ваши приложения могли работать с R-Keeper, Poster и другими POS через один интерфейс. Мы берём на себя всю логику интеграции — вы занимаетесь развитием своего бизнеса.',
         whyMatters: 'Зачем это нужно',
         whyMattersDesc: 'Несколько POS-интеграций означают дублирование логики, разные API и лишние затраты на поддержку. Birga централизует подключения, ускоряет интеграцию и упрощает добавление новых систем по мере роста.',
         builtForScale: 'Масштабируемость',
-        builtForScaleDesc: 'Наш шлюз рассчитан на надёжность и наблюдаемость. Поддерживаются современная аутентификация, повторы и проверки состояния из коробки.'
+        builtForScaleDesc: 'Наш шлюз рассчитан на надёжность и масштабируемость. Поддерживаются современные методы аутентификация, обработка ошибок и проверка состояния POS систем из коробки.'
       },
       integrations: {
         title: 'Интеграции',
-        lead: 'Мы интегрируемся с ведущими кассовыми и доставческими платформами. Подключитесь один раз — работайте со всеми.',
+        lead: 'Мы интегрируемся с ведущими кассовыми платформами и сервисами доставки. Подключитесь один раз — работайте со всеми.',
         rkeeperDesc: 'Заказы, меню и справочники',
         posterDesc: 'Полный цикл POS и заказов',
         iikoDesc: 'Управление рестораном и доставкой',
-        moreComing: 'Скоро ещё',
-        moreComingDesc: 'Новые адаптеры POS в разработке'
+        moreComing: 'В разработке',
+        moreComingDesc: 'Новые адаптеры POS и сервисы доставок'
       },
       partners: {
         title: 'Партнёры',
-        lead: 'Нам доверяют ведущие бренды, которые ведут операции на Birga.',
+        lead: 'Нам доверяют ведущие бренды, которые ведут партнерство с Birga.',
         costaCoffee: 'Costa Coffee',
         hoopla: 'Hoopla',
         inntouch: 'Inntouch'
@@ -119,15 +119,15 @@
         q1: 'Что такое Birga?',
         a1: 'Birga — единый шлюз интеграции (SaaS), через который ваши системы работают с несколькими POS по одному API. Вместо отдельных интеграций с каждой кассой вы подключаетесь один раз к Birga.',
         q2: 'Какие POS поддерживаются?',
-        a2: 'Сейчас поддерживаются R-Keeper и Poster, в разработке другие адаптеры. Напишите нам, если нужна конкретная POS или платформа доставки.',
+        a2: 'Сейчас поддерживаются R-Keeper, IIKO и Poster, в разработке другие адаптеры. Напишите нам, если нужна конкретная POS или платформа доставки.',
         q3: 'Можно ли использовать Birga on-premise?',
         a3: 'Пока доступен только облачный (SaaS) вариант. Шлюз рассчитан на полностью управляемую и масштабируемую работу.',
         q4: 'Как начать?',
-        a4: 'Напишите нам в разделе контактов. Мы проведём демо, обсудим задачу и поможем с доступом или внедрением.'
+        a4: 'Напишите нам в разделе контактов. Мы проведём демо, обсудим задачу и поможем с доступом или интеграцией.'
       },
       contacts: {
         title: 'Контакты',
-        lead: 'Свяжитесь с нами по демо, ценам или техническим вопросам.',
+        lead: 'Свяжитесь с нами для организации демо, обсуждения цен или технических вопросов.',
         email: 'Email',
         support: 'Поддержка',
         documentation: 'Документация',
@@ -146,7 +146,7 @@
       },
       meta: {
         title: 'Birga — Единый шлюз интеграции для любых POS',
-        description: 'Birga объединяет ваши кассовые системы в одном шлюзе. Один API, одна панель, без привязки к вендору.'
+        description: 'Birga объединяет ваши кассовые системы в одном шлюзе. Единый интерфейс API, единый дэшборд, без привязки к вендору.'
       },
       aria: { openMenu: 'Открыть меню', closeMenu: 'Закрыть меню' }
     },
@@ -156,7 +156,7 @@
       hero: {
         titleLine1: 'Bitta shlyuz.',
         titleLine2: 'Har qanday POS.',
-        lead: 'Birga — sizning biznesingizni bir nechta kassa va to\'lov tizimlariga ulaydigan yagona integratsiya shlyuzi. Bitta API, bitta boshqaruv paneli, provayderga bog\'liq emas.',
+        lead: 'Birga — sizning biznesingizni bir nechta kassa va to\'lov (POS) tizimlariga ulaydigan yagona integratsiya shlyuzi. Bitta API, bitta boshqaruv paneli, provayderga bog\'liq emas.',
         requestDemo: 'Demo so\'rash',
         learnMore: 'Batafsil',
         statPartners: 'Hamkor',
@@ -166,7 +166,7 @@
       about: {
         title: 'Biz haqimizda',
         whatWeDo: 'Nima qilamiz',
-        whatWeDoDesc: 'Birga ilovangiz R-Keeper, Poster va boshqa POS tizimlari bilan bitta interfeys orqali ishlashi uchun yagona integratsiya qatlamini taqdim etadi. Protokollar, qayta urinishlar va xaritalashni biz o\'zimiz qilamiz — siz mahsulotga e\'tibor qaratasiz.',
+        whatWeDoDesc: 'Birga ilovangiz R-Keeper, IIKO, Poster va boshqa POS tizimlari bilan bitta interfeys orqali ishlashi uchun yagona integratsiya shlyuzini taqdim etadi. Biz integratsiyaning barcha jarayonlarini o‘z zimmamizga olamiz - siz esa o‘z biznesingizni rivojlantirish bilan shug‘ullaning.',
         whyMatters: 'Nima uchun kerak',
         whyMattersDesc: 'Bir nechta POS integratsiyalari takroriy mantiq, turli API va qo\'shimcha qo\'llab-quvvatlash xarajatlarini anglatadi. Birga ulanishlarni markazlashtiradi, integratsiyani tezlashtiradi va o\'sish bilan yangi tizimlarni qo\'shishni osonlashtiradi.',
         builtForScale: 'Masshtablanuvchanlik',
