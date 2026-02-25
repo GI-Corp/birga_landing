@@ -3,7 +3,7 @@
 
   var translations = {
     en: {
-      nav: { about: 'About', integrations: 'Integrations', partners: 'Partners', faq: 'FAQ', contacts: 'Contacts' },
+      nav: { about: 'About', integrations: 'Integrations', partners: 'Partners', apiDocs: 'API Docs', faq: 'FAQ', contacts: 'Contacts' },
       cta: { getStarted: 'Try for free' },
       hero: {
         titleLine1: 'One gateway.',
@@ -38,7 +38,10 @@
         lead: 'Trusted by leading brands that run their operations on Birga.',
         costaCoffee: 'Costa Coffee',
         hoopla: 'Hoopla',
-        inntouch: 'Inntouch'
+        inntouch: 'Inntouch',
+        quickServe: 'QuickServe',
+        urbanEats: 'UrbanEats',
+        cloudKitchen: 'CloudKitchen'
       },
       faq: {
         title: 'FAQ',
@@ -64,7 +67,7 @@
         message: 'Message',
         messagePlaceholder: 'Tell us about your project',
         sendMessage: 'Send message',
-        docsLink: 'Docs & API'
+        docsLink: 'API Documentation'
       },
       footer: {
         tagline: 'Single integration gateway for your business.',
@@ -77,7 +80,7 @@
       aria: { openMenu: 'Open menu', closeMenu: 'Close menu' }
     },
     ru: {
-      nav: { about: 'О нас', integrations: 'Интеграции', partners: 'Партнёры', faq: 'Вопросы', contacts: 'Контакты' },
+      nav: { about: 'О нас', integrations: 'Интеграции', partners: 'Партнёры', apiDocs: 'API Документация', faq: 'Вопросы', contacts: 'Контакты' },
       cta: { getStarted: 'Начать бесплатно' },
       hero: {
         titleLine1: 'Единый шлюз.',
@@ -112,7 +115,10 @@
         lead: 'Нам доверяют ведущие бренды, которые ведут партнерство с Birga.',
         costaCoffee: 'Costa Coffee',
         hoopla: 'Hoopla',
-        inntouch: 'Inntouch'
+        inntouch: 'Inntouch',
+        quickServe: 'QuickServe',
+        urbanEats: 'UrbanEats',
+        cloudKitchen: 'CloudKitchen'
       },
       faq: {
         title: 'Частые вопросы',
@@ -138,7 +144,7 @@
         message: 'Сообщение',
         messagePlaceholder: 'Расскажите о вашем проекте',
         sendMessage: 'Отправить',
-        docsLink: 'Документация и API'
+        docsLink: 'API Документация'
       },
       footer: {
         tagline: 'Единый шлюз интеграции для вашего бизнеса.',
@@ -151,7 +157,7 @@
       aria: { openMenu: 'Открыть меню', closeMenu: 'Закрыть меню' }
     },
     uz: {
-      nav: { about: 'Biz haqimizda', integrations: 'Integratsiyalar', partners: 'Hamkorlar', faq: 'Savollar', contacts: 'Aloqa' },
+      nav: { about: 'Biz haqimizda', integrations: 'Integratsiyalar', partners: 'Hamkorlar', apiDocs: 'API Docs', faq: 'Savollar', contacts: 'Aloqa' },
       cta: { getStarted: "Boshlash" },
       hero: {
         titleLine1: 'Bitta shlyuz.',
@@ -186,7 +192,10 @@
         lead: 'Birga da operatsiyalarini olib boradigan etakchi brendlar bizga ishonadi.',
         costaCoffee: 'Costa Coffee',
         hoopla: 'Hoopla',
-        inntouch: 'Inntouch'
+        inntouch: 'Inntouch',
+        quickServe: 'QuickServe',
+        urbanEats: 'UrbanEats',
+        cloudKitchen: 'CloudKitchen'
       },
       faq: {
         title: 'Tez-tez so\'raladigan savollar',
@@ -212,7 +221,7 @@
         message: 'Xabar',
         messagePlaceholder: 'Loyihangiz haqida yozing',
         sendMessage: 'Yuborish',
-        docsLink: 'Hujjatlar va API'
+        docsLink: 'API Hujjatlar'
       },
       footer: {
         tagline: 'Biznesingiz uchun yagona integratsiya shlyuzi.',
