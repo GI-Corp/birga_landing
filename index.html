@@ -243,7 +243,7 @@
             <div class="contact-card">
               <span class="contact-card-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg></span>
               <h3 data-i18n="contacts.email">Email</h3>
-              <a href="mailto:gicorp.work@gmail.com">gicorp.work@gmail.com</a>
+              <a href="mailto:support@birga-gateway.uz">support@birga-gateway.uz</a>
             </div>
             <div class="contact-card">
               <span class="contact-card-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
@@ -302,13 +302,13 @@
         var email = (form.querySelector('[name="email"]') || {}).value || '';
         var message = (form.querySelector('[name="message"]') || {}).value || '';
 
-        var subject = 'Birga — Demo request from ' + (name || 'Unknown');
+        var subject = 'Birga — Demo request from landing page' + (name || 'Unknown');
         var body = 'Request a demo (Birga landing)\n\n' +
           'Name: ' + name + '\n' +
           'Email: ' + email + '\n\n' +
           'Message:\n' + message;
 
-        var mailto = 'mailto:gicorp.work@gmail.com?' +
+        var mailto = 'mailto:support@birga-gateway.uz?' +
           'subject=' + encodeURIComponent(subject) +
           '&body=' + encodeURIComponent(body);
 
